@@ -1,0 +1,28 @@
+title: Adrian Dylinski's blog and home page
+description: 
+
+url: http://gotenhan.github.io/
+baseurl: 
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+markdown: kramdown
+highlighter: rouge
+gems: [jekyll-paginate, jekyll-compass, normalize-scss, susy, support-for]
+paginate: 10
+
+navigation:
+ - title: Home
+   url: /blog/
+ - title: About
+   url: /about
+ - title: Contact
+   url: /contact
+
+social:
+   github: gotenhan
+   email: adrian.dylinski@gmail.com
+
+google_analytics: ""
+sass:
+    sass_dir: ./_scss

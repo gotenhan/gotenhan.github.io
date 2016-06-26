@@ -1,0 +1,23 @@
+---
+layout: default
+title: About Adrian Dylinski
+---
+{% assign resume = site.data.resume %}
+<div class="post">
+	<h1 class="pageTitle">About Adrian Dylinski</h1>
+	<h2>Profile</h2>
+	{% for paragraph in resume.profile %}
+	<p>{{ paragraph }}</p>
+	{% endfor %}
+
+	<h2>Expertise</h2>
+	<ul>
+	{% for exp in resume.expertise %}
+	<li><p>{{exp}}<p></li>
+	{% endfor %}
+	</ul>
+	<h2>Employment history</h2>
+	{% for job in resume.employment_history %}
+	{% include_relative _employment.html param="value" variable-param=job %}
+	{% endfor %}
+</div>

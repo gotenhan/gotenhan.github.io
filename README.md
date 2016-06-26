@@ -1,1 +1,0 @@
-# gotenhan.github.io
