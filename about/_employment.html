@@ -1,9 +1,0 @@
-{% assign job=include.param %}
-<div class="job">
-  <h6>{{ job.start_date | date: '%B %Y' }} &mdash; {{ job.end_date | date: '%B %Y'}} {{ job.role}} at <a href="{{job.company.website}}">{{ job.company.name }}</a>  </h4>
-  <ul>
-    {% for tech in job.technologies %}
-    <li>{{tech}}</li>
-    {% endfor %}
-  </ul>
-</div>
