@@ -6,6 +6,4 @@ group :jekyll_plugins do
     gem 'normalize-scss'
     gem 'support-for'
     gem 'jekyll-compass'
-    gem 'jekyll-paginate'
 end
-    

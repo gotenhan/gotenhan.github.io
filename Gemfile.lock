@@ -147,7 +147,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-compass
-  jekyll-paginate
   normalize-scss
   support-for
   susy
